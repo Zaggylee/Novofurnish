@@ -1,0 +1,117 @@
+@import url("https://fonts.googleapis.com/css2?family=Noto+Sans:ital,wght@0,100..900;1,100..900&family=Varela&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  background-color: #ebebeb;
+}
+
+/*nav bar styles*/
+nav {
+  background-color: white;
+  position: sticky;
+  top: 0;
+}
+.navbar {
+  background-color: white;
+  display: flex;
+  justify-content: space-between;
+  padding: 2rem;
+  max-width: 75em;
+  margin: 0 auto; /*or margin-inline:auto; */
+  align-items: center;
+}
+.logo {
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: 200;
+}
+.nav-links {
+  display: flex;
+  gap: 2rem;
+  list-style-type: none;
+}
+.nav-links a {
+  text-decoration: none;
+  color: grey;
+  font-family: Arial, Helvetica, sans-serif;
+}
+.nav-icons {
+  display: flex;
+  gap: 2rem;
+  color: grey;
+}
+/*hero section styling*/
+#hero-section {
+  background-image: url("https://images.pexels.com/photos/7195537/pexels-photo-7195537.jpeg?auto=compress&cs=tinysrgb&w=1200");
+  height: 80vh;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+#hero-content {
+  max-width: 75em;
+  margin-inline: auto;
+  padding: 2rem;
+}
+#headline-text {
+  font-size: 4.5rem;
+  color: white;
+  font-weight: 200;
+  max-width: 50rem;
+  line-height: 4rem;
+  font-family: "Varela", sans-serif;
+}
+#sub-headline-text {
+  color: white;
+  font-family: Arial, Helvetica, sans-serif;
+  max-width: 26rem;
+  margin-block: 1rem;
+}
+#call-to-action-btn {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 1.2rem;
+  color: grey;
+  font-weight: 200;
+  border-radius: 20rem;
+  padding: 1em;
+  border-style: none;
+  display: flex;
+  gap: 0.5rem;
+  cursor: pointer;
+  align-items: center;
+}
+#call-to-action-btn i {
+  transform: rotate(-45deg);
+}
+/* new arrivals styling*/
+#arrivals-section {
+  max-width: 75em;
+  margin-inline: auto;
+  margin-block: 3rem;
+  padding: 2rem;
+}
+#arrivals-section h2 {
+  text-align: center;
+  font-weight: 300;
+  color: grey;
+  font-family: "Noto Sans", sans-serif;
+  margin-bottom: 2rem;
+}
+#arrivals-product-container {
+  display: flex;
+  flex-wrap: wrap;
+  column-gap: 0.5rem;
+  row-gap: 2rem;
+}
+.product-card img {
+  width: 15rem;
+  border-radius: 1.3rem;
+}
+.product-card {
+  color: grey;
+  font-family: "Noto Sans" sans-serif;
+}
+.product-card h3 {
+  font-weight: 400;
+}
